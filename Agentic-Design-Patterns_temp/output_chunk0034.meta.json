@@ -1,6 +1,25 @@
 {
   "schema_version": 1,
-  "new_entities": [],
+  "new_entities": [
+    {
+      "source": "GraphRAG",
+      "target_proposal": "GraphRAG（基于图的检索增强生成）",
+      "category": "technique",
+      "evidence": "Retrieval-Augmented Generation with Graphs (GraphRAG)"
+    },
+    {
+      "source": "Leonie Monigatti",
+      "target_proposal": "Leonie Monigatti",
+      "category": "person",
+      "evidence": "LangChain and LangGraph: Leonie Monigatti, \"Retrieval-Augmented Generation"
+    },
+    {
+      "source": "VertexAiRagMemoryService",
+      "target_proposal": "VertexAiRagMemoryService",
+      "category": "api",
+      "evidence": "Initialize an instance of VertexAiRagMemoryService. This sets up the connection to your Vertex AI RAG Corpus."
+    }
+  ],
   "alias_hypotheses": [],
   "attribute_hypotheses": [],
   "used_term_sources": [
@@ -8,12 +27,14 @@
     "agents",
     "LLM",
     "LLMs",
+    "large language model",
     "Large Language Models",
-    "RAG",
-    "Retrieval-Augmented Generation",
-    "agentic",
     "Google",
     "ADK",
+    "agentic",
+    "Agentic",
+    "RAG",
+    "Retrieval-Augmented Generation",
     "OpenAI"
   ],
   "conflicts": []
