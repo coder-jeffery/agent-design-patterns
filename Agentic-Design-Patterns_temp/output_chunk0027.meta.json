@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "new_entities": [
+    {
+      "source": "FastMCP",
+      "target_proposal": "FastMCP",
+      "category": "framework",
+      "evidence": "FastMCP is a high-level Python framework designed to streamline the development of MCP servers."
+    },
+    {
+      "source": "npx",
+      "target_proposal": "npx",
+      "category": "tool",
+      "evidence": "`npx` (Node Package Execute), bundled with npm (Node Package Manager) versions 5.2.0 and later"
+    },
+    {
+      "source": "UVX",
+      "target_proposal": "UVX",
+      "category": "tool",
+      "evidence": "UVX, in the context of Python, refers to a command-line tool that utilizes uv to execute commands"
+    }
+  ],
+  "alias_hypotheses": [],
+  "attribute_hypotheses": [],
+  "used_term_sources": [
+    "agent",
+    "agents",
+    "LLM",
+    "LLMs",
+    "Large Language Models",
+    "MCP",
+    "Model Context Protocol",
+    "ADK",
+    "Agent Development Kit"
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "new_entities": [],
+  "alias_hypotheses": [],
+  "attribute_hypotheses": [],
+  "used_term_sources": [
+    "agent",
+    "LLM",
+    "Google",
+    "Google ADK"
+  ],
+  "conflicts": [
+    {
+      "term": "function calling",
+      "table_translation": "工具使用",
+      "chosen": "函数调用",
+      "reason": "此处对比 Vertex AI extensions 与 function calling 的执行机制，非模式名 Tool Use"
+    }
+  ]
+}

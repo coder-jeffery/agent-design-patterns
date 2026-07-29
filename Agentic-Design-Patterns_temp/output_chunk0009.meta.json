@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "new_entities": [],
+  "alias_hypotheses": [],
+  "attribute_hypotheses": [],
+  "used_term_sources": [
+    "agent",
+    "LLM",
+    "Google",
+    "agentic",
+    "Parallelization",
+    "Routing",
+    "Prompt Chaining"
+  ],
+  "conflicts": []
+}

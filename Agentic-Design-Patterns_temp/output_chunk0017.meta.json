@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "new_entities": [],
+  "alias_hypotheses": [
+    {
+      "variant": "DeepResearch",
+      "may_be_alias_of_source": "Deep Research",
+      "evidence": "Gemini DeepResearch provides a more structured and exhaustive method for information discovery."
+    }
+  ],
+  "attribute_hypotheses": [],
+  "used_term_sources": [
+    "agent",
+    "Planning",
+    "Deep Research",
+    "LLM",
+    "Google"
+  ],
+  "conflicts": []
+}

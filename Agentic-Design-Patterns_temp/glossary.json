@@ -1,0 +1,575 @@
+{
+  "applied_meta_hashes": {
+    "chunk0001": "bed302c1e17fcc3cc16769b524aa6b062f3b7e3c80d3108a65a082501e1b3e50",
+    "chunk0002": "3dafd64154998845c71f2f732a9b8152380c1229f4e25f6c8af643be1ea628ca",
+    "chunk0003": "1d663d8d6873aca2e7bb5eabc716372bd8c84e8cd12f52eefbd85ab3b30406ff",
+    "chunk0004": "5bae22de4067363aae18382d23a830089ad420e3bad08293e6f42c967b9cc50c",
+    "chunk0005": "e3ab82d35f2d7b5aead25adf06fd6831904158f49a1781f4462ce1fb139f4562",
+    "chunk0006": "36d2754a1b31195504e17a931015eb42b36e0f83a9f7852a4f11531c9a328498",
+    "chunk0007": "471c9c3bfc98c023703169beca442beb087355a349b709087534d7d80a732426",
+    "chunk0008": "ae16c5675a982322530f042b84534c7407acfc984f44007b7eacb8b3f353183b",
+    "chunk0009": "0725ca3cb451035191ad0178bb2ca9185cf0503f80ad86b29f61e41c4fb0b738",
+    "chunk0010": "852a6f3bbfd5ae5f9276741119114ce1e8de0366f30931562eaa016a6b302415",
+    "chunk0011": "374a9d555314b75a3fe2d4d421c9047e2279d9609bd6f4add043c84d2683f8fa",
+    "chunk0012": "cb5f7fb54bf3b2cacd10f7f67375f38b1f5edb226467117f2566a4b5f228e7b9",
+    "chunk0013": "847a38e6ea45736e64207a56e170d7888473b0bc207892264f401782923b5214",
+    "chunk0016": "6a99d3ec07eb36438519dc9bd2d0339d00710d5c2e1827c9d578bd02871a5f1a",
+    "chunk0017": "9daaec43efaf3cbde2eab8558e4603bf02e28ccec1ce378e05481d63aa5dcb7f",
+    "chunk0018": "27e0a14b9306c4db103d7e9bc5c9b744420532093adca980b310ec8b18df6fbc",
+    "chunk0019": "52f27e3ca03b4aaea5e2db4266bbb0aee5ba511da20f376c16d3e740b4d2d140",
+    "chunk0020": "b953d70bb22ef4ddbd55445cec2973600dbc28c098007a51c11fda752321ca25",
+    "chunk0021": "711ed2444d10a5c680d61deac709aac6a490565564f8afb01cc04712a050e5a7",
+    "chunk0025": "bfc04329980371bd7184fb56096c604c393e0b1281ae897ef37a91310a700511",
+    "chunk0027": "1e66a7e7fff3b87606e438642d5128b82cc0274f3a2989ccf88e6cb4a96c1ea4"
+  },
+  "high_frequency_top_n": 20,
+  "terms": [
+    {
+      "aliases": [],
+      "category": "title",
+      "confidence": "high",
+      "evidence_refs": [
+        "chunk0001",
+        "chunk0002"
+      ],
+      "frequency": 5,
+      "gender": "unknown",
+      "id": "Agentic Design Patterns",
+      "notes": "书名",
+      "source": "Agentic Design Patterns",
+      "target": "智能体设计模式"
+    },
+    {
+      "aliases": [],
+      "category": "person",
+      "confidence": "high",
+      "evidence_refs": [
+        "chunk0001"
+      ],
+      "frequency": 1,
+      "gender": "male",
+      "id": "Antonio Gulli",
+      "notes": "作者",
+      "source": "Antonio Gulli",
+      "target": "安东尼奥·古利"
+    },
+    {
+      "aliases": [
+        "Agent",
+        "agents",
+        "Agents",
+        "AI agent",
+        "AI agents"
+      ],
+      "category": "tech",
+      "confidence": "high",
+      "evidence_refs": [
+        "chunk0021",
+        "chunk0018",
+        "chunk0020",
+        "chunk0025",
+        "chunk0027"
+      ],
+      "frequency": 884,
+      "gender": "unknown",
+      "id": "agent",
+      "notes": "核心概念；agentic 译为「智能体式」",
+      "source": "agent",
+      "target": "智能体"
+    },
+    {
+      "aliases": [
+        "Agentic"
+      ],
+      "category": "tech",
+      "confidence": "high",
+      "evidence_refs": [
+        "chunk0011",
+        "chunk0012",
+        "chunk0013",
+        "chunk0018",
+        "chunk0020"
+      ],
+      "frequency": 73,
+      "gender": "unknown",
+      "id": "agentic",
+      "notes": "",
+      "source": "agentic",
+      "target": "智能体式"
+    },
+    {
+      "aliases": [
+        "prompt chaining"
+      ],
+      "category": "pattern",
+      "confidence": "high",
+      "evidence_refs": [
+        "chunk0005",
+        "chunk0006",
+        "chunk0007",
+        "chunk0009",
+        "chunk0012"
+      ],
+      "frequency": 15,
+      "gender": "unknown",
+      "id": "Prompt Chaining",
+      "notes": "第1章",
+      "source": "Prompt Chaining",
+      "target": "提示链"
+    },
+    {
+      "aliases": [],
+      "category": "pattern",
+      "confidence": "high",
+      "evidence_refs": [
+        "chunk0003",
+        "chunk0007",
+        "chunk0008",
+        "chunk0009",
+        "chunk0012"
+      ],
+      "frequency": 18,
+      "gender": "unknown",
+      "id": "Routing",
+      "notes": "第2章；语境为模式名时用此译",
+      "source": "Routing",
+      "target": "路由"
+    },
+    {
+      "aliases": [],
+      "category": "pattern",
+      "confidence": "high",
+      "evidence_refs": [
+        "chunk0001",
+        "chunk0009",
+        "chunk0011",
+        "chunk0012"
+      ],
+      "frequency": 26,
+      "gender": "unknown",
+      "id": "Parallelization",
+      "notes": "第3章",
+      "source": "Parallelization",
+      "target": "并行化"
+    },
+    {
+      "aliases": [
+        "reflection"
+      ],
+      "category": "pattern",
+      "confidence": "high",
+      "evidence_refs": [
+        "chunk0001",
+        "chunk0003",
+        "chunk0012",
+        "chunk0013",
+        "chunk0018"
+      ],
+      "frequency": 45,
+      "gender": "unknown",
+      "id": "Reflection",
+      "notes": "第4章",
+      "source": "Reflection",
+      "target": "反思"
+    },
+    {
+      "aliases": [
+        "tool use",
+        "Function Calling",
+        "function calling"
+      ],
+      "category": "pattern",
+      "confidence": "high",
+      "evidence_refs": [
+        "chunk0001",
+        "chunk0002",
+        "chunk0004",
+        "chunk0016"
+      ],
+      "frequency": 43,
+      "gender": "unknown",
+      "id": "Tool Use",
+      "notes": "第5章",
+      "source": "Tool Use",
+      "target": "工具使用"
+    },
+    {
+      "aliases": [
+        "planning"
+      ],
+      "category": "pattern",
+      "confidence": "high",
+      "evidence_refs": [
+        "chunk0004",
+        "chunk0006",
+        "chunk0012",
+        "chunk0017",
+        "chunk0018"
+      ],
+      "frequency": 35,
+      "gender": "unknown",
+      "id": "Planning",
+      "notes": "第6章",
+      "source": "Planning",
+      "target": "规划"
+    },
+    {
+      "aliases": [
+        "MCP"
+      ],
+      "category": "tech",
+      "confidence": "high",
+      "evidence_refs": [
+        "chunk0018",
+        "chunk0027"
+      ],
+      "frequency": 52,
+      "gender": "unknown",
+      "id": "Model Context Protocol",
+      "notes": "首次出现可写「模型上下文协议（MCP）」",
+      "source": "Model Context Protocol",
+      "target": "模型上下文协议"
+    },
+    {
+      "aliases": [
+        "A2A"
+      ],
+      "category": "pattern",
+      "confidence": "high",
+      "evidence_refs": [],
+      "frequency": 39,
+      "gender": "unknown",
+      "id": "Inter-Agent Communication",
+      "notes": "第15章；首次可写「智能体间通信（A2A）」",
+      "source": "Inter-Agent Communication",
+      "target": "智能体间通信"
+    },
+    {
+      "aliases": [
+        "Agent Cards"
+      ],
+      "category": "tech",
+      "confidence": "high",
+      "evidence_refs": [],
+      "frequency": 8,
+      "gender": "unknown",
+      "id": "Agent Card",
+      "notes": "",
+      "source": "Agent Card",
+      "target": "智能体卡片"
+    },
+    {
+      "aliases": [
+        "ADK",
+        "Agent Development Kit"
+      ],
+      "category": "tech",
+      "confidence": "high",
+      "evidence_refs": [
+        "chunk0016",
+        "chunk0019",
+        "chunk0021",
+        "chunk0020",
+        "chunk0027"
+      ],
+      "frequency": 80,
+      "gender": "unknown",
+      "id": "Google ADK",
+      "notes": "专有产品名保留英文",
+      "source": "Google ADK",
+      "target": "Google ADK"
+    },
+    {
+      "aliases": [
+        "CoT",
+        "chain of thought"
+      ],
+      "category": "tech",
+      "confidence": "high",
+      "evidence_refs": [],
+      "frequency": 16,
+      "gender": "unknown",
+      "id": "Chain of Thought",
+      "notes": "首次可写「思维链（CoT）」",
+      "source": "Chain of Thought",
+      "target": "思维链"
+    },
+    {
+      "aliases": [
+        "ToT",
+        "tree of thoughts"
+      ],
+      "category": "tech",
+      "confidence": "high",
+      "evidence_refs": [],
+      "frequency": 19,
+      "gender": "unknown",
+      "id": "Tree of Thoughts",
+      "notes": "首次可写「思维树（ToT）」",
+      "source": "Tree of Thoughts",
+      "target": "思维树"
+    },
+    {
+      "aliases": [
+        "HITL",
+        "human-in-the-loop"
+      ],
+      "category": "pattern",
+      "confidence": "high",
+      "evidence_refs": [],
+      "frequency": 31,
+      "gender": "unknown",
+      "id": "Human-in-the-Loop",
+      "notes": "首次可写「人在环路（HITL）」",
+      "source": "Human-in-the-Loop",
+      "target": "人在环路"
+    },
+    {
+      "aliases": [
+        "orchestrator",
+        "Orchestrator"
+      ],
+      "category": "tech",
+      "confidence": "high",
+      "evidence_refs": [],
+      "frequency": 5,
+      "gender": "unknown",
+      "id": "Orchestrator Agent",
+      "notes": "",
+      "source": "Orchestrator Agent",
+      "target": "编排智能体"
+    },
+    {
+      "aliases": [
+        "LLMs",
+        "large language model",
+        "large language models"
+      ],
+      "category": "tech",
+      "confidence": "high",
+      "evidence_refs": [
+        "chunk0017",
+        "chunk0019",
+        "chunk0018",
+        "chunk0020",
+        "chunk0027"
+      ],
+      "frequency": 141,
+      "gender": "unknown",
+      "id": "LLM",
+      "notes": "首次可写「大语言模型（LLM）」",
+      "source": "LLM",
+      "target": "大语言模型"
+    },
+    {
+      "aliases": [
+        "system_message",
+        "System Prompt"
+      ],
+      "category": "tech",
+      "confidence": "high",
+      "evidence_refs": [
+        "chunk0012",
+        "chunk0018"
+      ],
+      "frequency": 5,
+      "gender": "unknown",
+      "id": "system prompt",
+      "notes": "",
+      "source": "system prompt",
+      "target": "系统提示词"
+    },
+    {
+      "aliases": [
+        "Prompt Engineering"
+      ],
+      "category": "tech",
+      "confidence": "high",
+      "evidence_refs": [
+        "chunk0001",
+        "chunk0006"
+      ],
+      "frequency": 7,
+      "gender": "unknown",
+      "id": "prompt engineering",
+      "notes": "",
+      "source": "prompt engineering",
+      "target": "提示工程"
+    },
+    {
+      "aliases": [
+        "DeepResearch"
+      ],
+      "category": "tech",
+      "confidence": "medium",
+      "evidence_refs": [
+        "chunk0017",
+        "chunk0018"
+      ],
+      "frequency": 14,
+      "gender": "unknown",
+      "id": "Deep Research",
+      "notes": "",
+      "source": "Deep Research",
+      "target": "深度研究"
+    },
+    {
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "retrieval-augmented generation"
+      ],
+      "category": "tech",
+      "confidence": "high",
+      "evidence_refs": [
+        "chunk0003",
+        "chunk0007"
+      ],
+      "frequency": 67,
+      "gender": "unknown",
+      "id": "RAG",
+      "notes": "首次可写「检索增强生成（RAG）」",
+      "source": "RAG",
+      "target": "检索增强生成"
+    },
+    {
+      "aliases": [
+        "Multi-Agent",
+        "multi-agent system",
+        "multi-agent systems"
+      ],
+      "category": "tech",
+      "confidence": "high",
+      "evidence_refs": [
+        "chunk0004",
+        "chunk0011",
+        "chunk0013",
+        "chunk0019",
+        "chunk0020"
+      ],
+      "frequency": 58,
+      "gender": "unknown",
+      "id": "multi-agent",
+      "notes": "",
+      "source": "multi-agent",
+      "target": "多智能体"
+    },
+    {
+      "aliases": [],
+      "category": "person",
+      "confidence": "medium",
+      "evidence_refs": [
+        "chunk0001"
+      ],
+      "frequency": 1,
+      "gender": "male",
+      "id": "Will Grannis",
+      "notes": "",
+      "source": "Will Grannis",
+      "target": "威尔·格兰尼斯"
+    },
+    {
+      "aliases": [],
+      "category": "person",
+      "confidence": "medium",
+      "evidence_refs": [
+        "chunk0001"
+      ],
+      "frequency": 1,
+      "gender": "unknown",
+      "id": "Lee Boonstra",
+      "notes": "",
+      "source": "Lee Boonstra",
+      "target": "李·布恩斯特拉"
+    },
+    {
+      "aliases": [],
+      "category": "person",
+      "confidence": "medium",
+      "evidence_refs": [
+        "chunk0001"
+      ],
+      "frequency": 1,
+      "gender": "male",
+      "id": "Thomas Kurian",
+      "notes": "",
+      "source": "Thomas Kurian",
+      "target": "托马斯·库里安"
+    },
+    {
+      "aliases": [],
+      "category": "org",
+      "confidence": "high",
+      "evidence_refs": [
+        "chunk0012",
+        "chunk0018"
+      ],
+      "frequency": 19,
+      "gender": "unknown",
+      "id": "OpenAI",
+      "notes": "公司名保留",
+      "source": "OpenAI",
+      "target": "OpenAI"
+    },
+    {
+      "aliases": [],
+      "category": "org",
+      "confidence": "high",
+      "evidence_refs": [
+        "chunk0016",
+        "chunk0017",
+        "chunk0019",
+        "chunk0021",
+        "chunk0018"
+      ],
+      "frequency": 83,
+      "gender": "unknown",
+      "id": "Google",
+      "notes": "公司名保留",
+      "source": "Google",
+      "target": "Google"
+    },
+    {
+      "aliases": [],
+      "category": "framework",
+      "confidence": "low",
+      "evidence_refs": [
+        "chunk0027"
+      ],
+      "frequency": 0,
+      "gender": "unknown",
+      "id": "FastMCP",
+      "notes": "",
+      "source": "FastMCP",
+      "target": "FastMCP"
+    },
+    {
+      "aliases": [],
+      "category": "tool",
+      "confidence": "low",
+      "evidence_refs": [
+        "chunk0027"
+      ],
+      "frequency": 0,
+      "gender": "unknown",
+      "id": "npx",
+      "notes": "",
+      "source": "npx",
+      "target": "npx"
+    },
+    {
+      "aliases": [],
+      "category": "tool",
+      "confidence": "low",
+      "evidence_refs": [
+        "chunk0027"
+      ],
+      "frequency": 0,
+      "gender": "unknown",
+      "id": "UVX",
+      "notes": "",
+      "source": "UVX",
+      "target": "UVX"
+    }
+  ],
+  "version": 2
+}

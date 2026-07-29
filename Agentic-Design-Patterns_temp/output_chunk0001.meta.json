@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "new_entities": [],
+  "alias_hypotheses": [],
+  "attribute_hypotheses": [],
+  "used_term_sources": [
+    "Agentic Design Patterns",
+    "Antonio Gulli",
+    "Prompt Chaining",
+    "Routing",
+    "Parallelization",
+    "Reflection",
+    "Tool Use",
+    "Planning",
+    "prompt engineering",
+    "Will Grannis",
+    "Lee Boonstra",
+    "Thomas Kurian",
+    "Google",
+    "agent"
+  ],
+  "conflicts": []
+}

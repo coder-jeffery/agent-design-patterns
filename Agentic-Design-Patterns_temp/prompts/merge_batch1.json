@@ -1,0 +1,15 @@
+{
+  "auto_apply": [],
+  "decisions_needed": [],
+  "consumed_chunk_ids": [
+    "chunk0001",
+    "chunk0002",
+    "chunk0003",
+    "chunk0004",
+    "chunk0005",
+    "chunk0006",
+    "chunk0007",
+    "chunk0008"
+  ],
+  "malformed_meta_chunk_ids": []
+}

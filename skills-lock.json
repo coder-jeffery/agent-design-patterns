@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "translate-book": {
+      "source": "deusyu/translate-book",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "67e10cdd4e4f6289225b78897ebf114d2f07a15bfad58e2d6b4f10dd70574f3c"
+    }
+  }
+}

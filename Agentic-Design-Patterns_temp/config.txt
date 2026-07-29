@@ -1,0 +1,6 @@
+# Translation Configuration
+input_file=/Users/jeffery/Documents/workspace/ebook/agent-design-patterns/Agentic-Design-Patterns.pdf
+input_lang=auto
+output_lang=zh
+conversion_method=calibre_htmlz
+original_title=Agentic Design Patterns

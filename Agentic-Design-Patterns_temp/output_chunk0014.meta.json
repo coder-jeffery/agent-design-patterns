@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "new_entities": [],
+  "alias_hypotheses": [],
+  "attribute_hypotheses": [],
+  "used_term_sources": [
+    "agent",
+    "LLM",
+    "agentic",
+    "Reflection",
+    "Tool Use",
+    "Parallelization",
+    "Routing",
+    "Prompt Chaining",
+    "Google"
+  ],
+  "conflicts": [
+    {
+      "term": "Function Calling",
+      "table_translation": "工具使用",
+      "chosen": "函数调用",
+      "reason": "此处将 Function Calling 作为实现 Tool Use 模式的技术机制，与模式名「工具使用」区分；与 chunk0015 处理一致"
+    }
+  ]
+}

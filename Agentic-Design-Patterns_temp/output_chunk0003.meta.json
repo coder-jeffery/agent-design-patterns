@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "new_entities": [],
+  "alias_hypotheses": [],
+  "attribute_hypotheses": [],
+  "used_term_sources": [
+    "agent",
+    "LLM",
+    "agentic",
+    "RAG",
+    "Reflection",
+    "Routing",
+    "multi-agent",
+    "Planning"
+  ],
+  "conflicts": []
+}
