@@ -41,7 +41,7 @@
         "chunk0033",
         "chunk0034"
       ],
-      "status": "partial_4_of_8",
+      "status": "done",
       "note": "rerun after stuck; chunk0024 retry attempt 3",
       "agents": {
         "chunk0024": "fe18537e-0515-464e-b60a-16442462b596",
@@ -75,8 +75,22 @@
         "chunk0033",
         "chunk0034"
       ],
-      "status": "running_retry",
+      "status": "done",
       "note": "retry empty-transcript agents"
+    },
+    {
+      "n": 3,
+      "chunks": [
+        "chunk0035",
+        "chunk0036",
+        "chunk0037",
+        "chunk0038",
+        "chunk0039",
+        "chunk0040",
+        "chunk0041",
+        "chunk0042"
+      ],
+      "status": "launching"
     }
   ],
   "remaining_after_batch1": [
@@ -132,8 +146,8 @@
   ],
   "note": "Task5 verify+retry only; do not start Task6/7 until complete",
   "progress": {
-    "translated_approx": 30,
-    "missing_approx": 42
+    "translated_approx": 34,
+    "missing_approx": 38
   },
   "session": "6c10160f-6d2c-42c9-92c4-fa128cd33487"
 }

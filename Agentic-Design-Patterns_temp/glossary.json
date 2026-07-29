@@ -21,9 +21,17 @@
     "chunk0021": "711ed2444d10a5c680d61deac709aac6a490565564f8afb01cc04712a050e5a7",
     "chunk0022": "afb6cfd4d8928be98898bc1d29ac74b1be96fca3d6c85d1f5d3dd34cf4bb00f5",
     "chunk0023": "d6ace5cd6f1e3dbe3868ae9195a2c3ded820453a41567514eded77ea81789193",
+    "chunk0024": "68703c9bed64b109fcd0607455bc8849a1bc1f20e6f9da3c34eed90ec83269a7",
     "chunk0025": "bfc04329980371bd7184fb56096c604c393e0b1281ae897ef37a91310a700511",
     "chunk0026": "693389fb02c03f46fb63b72f7c7c690e7d2378174fa71a0e44e69b2463abb61f",
-    "chunk0027": "1e66a7e7fff3b87606e438642d5128b82cc0274f3a2989ccf88e6cb4a96c1ea4"
+    "chunk0027": "1e66a7e7fff3b87606e438642d5128b82cc0274f3a2989ccf88e6cb4a96c1ea4",
+    "chunk0028": "cc5b73bb6937d2f0f89c492f811eba043e60a5ab6bc37467756b31fda9704371",
+    "chunk0029": "4aba4446b83761fe5b4101b64d580e0cd493fc758851aa9f5bbaec88b6f8227b",
+    "chunk0030": "f6a3e28ce9abe2520d016bac22423ddc106d53742f72c321a75147c987bb26f2",
+    "chunk0031": "3ee002338b8fb2c6d666a14cd026de3213965d5bb26d8ef7fad5e79bfc7749f1",
+    "chunk0032": "76e1d455530571a2d3e57f3c8cbb80186d2d4058e43cff37eaa0c643dbe7ea38",
+    "chunk0033": "042182961444ce5020c091c155085ae003cc451386283a0e74606343e83686e0",
+    "chunk0034": "72ccc6b9710e9c98a1e04be16e0064b2295782e0a915a45ba682df511007e411"
   },
   "high_frequency_top_n": 20,
   "terms": [
@@ -67,11 +75,11 @@
       "category": "tech",
       "confidence": "high",
       "evidence_refs": [
-        "chunk0025",
-        "chunk0027",
-        "chunk0022",
-        "chunk0023",
-        "chunk0026"
+        "chunk0030",
+        "chunk0031",
+        "chunk0032",
+        "chunk0033",
+        "chunk0034"
       ],
       "frequency": 884,
       "gender": "unknown",
@@ -87,11 +95,11 @@
       "category": "tech",
       "confidence": "high",
       "evidence_refs": [
-        "chunk0013",
-        "chunk0018",
-        "chunk0020",
-        "chunk0023",
-        "chunk0026"
+        "chunk0026",
+        "chunk0024",
+        "chunk0030",
+        "chunk0033",
+        "chunk0034"
       ],
       "frequency": 73,
       "gender": "unknown",
@@ -162,11 +170,11 @@
       "category": "pattern",
       "confidence": "high",
       "evidence_refs": [
-        "chunk0003",
         "chunk0012",
         "chunk0013",
         "chunk0018",
-        "chunk0022"
+        "chunk0022",
+        "chunk0033"
       ],
       "frequency": 45,
       "gender": "unknown",
@@ -184,11 +192,11 @@
       "category": "pattern",
       "confidence": "high",
       "evidence_refs": [
-        "chunk0001",
         "chunk0002",
         "chunk0004",
         "chunk0016",
-        "chunk0026"
+        "chunk0026",
+        "chunk0024"
       ],
       "frequency": 43,
       "gender": "unknown",
@@ -204,11 +212,11 @@
       "category": "pattern",
       "confidence": "high",
       "evidence_refs": [
-        "chunk0004",
         "chunk0006",
         "chunk0012",
         "chunk0017",
-        "chunk0018"
+        "chunk0018",
+        "chunk0028"
       ],
       "frequency": 35,
       "gender": "unknown",
@@ -271,11 +279,11 @@
       "category": "tech",
       "confidence": "high",
       "evidence_refs": [
-        "chunk0021",
-        "chunk0020",
-        "chunk0027",
         "chunk0022",
-        "chunk0023"
+        "chunk0023",
+        "chunk0030",
+        "chunk0031",
+        "chunk0034"
       ],
       "frequency": 80,
       "gender": "unknown",
@@ -321,7 +329,10 @@
       ],
       "category": "pattern",
       "confidence": "high",
-      "evidence_refs": [],
+      "evidence_refs": [
+        "chunk0031",
+        "chunk0032"
+      ],
       "frequency": 31,
       "gender": "unknown",
       "id": "Human-in-the-Loop",
@@ -353,11 +364,11 @@
       "category": "tech",
       "confidence": "high",
       "evidence_refs": [
-        "chunk0018",
-        "chunk0020",
-        "chunk0027",
-        "chunk0022",
-        "chunk0026"
+        "chunk0028",
+        "chunk0029",
+        "chunk0031",
+        "chunk0033",
+        "chunk0034"
       ],
       "frequency": 141,
       "gender": "unknown",
@@ -393,7 +404,8 @@
       "confidence": "high",
       "evidence_refs": [
         "chunk0001",
-        "chunk0006"
+        "chunk0006",
+        "chunk0024"
       ],
       "frequency": 7,
       "gender": "unknown",
@@ -427,9 +439,11 @@
       "category": "tech",
       "confidence": "high",
       "evidence_refs": [
-        "chunk0003",
         "chunk0007",
-        "chunk0022"
+        "chunk0022",
+        "chunk0024",
+        "chunk0033",
+        "chunk0034"
       ],
       "frequency": 67,
       "gender": "unknown",
@@ -447,11 +461,11 @@
       "category": "tech",
       "confidence": "high",
       "evidence_refs": [
-        "chunk0004",
         "chunk0011",
         "chunk0013",
         "chunk0019",
-        "chunk0020"
+        "chunk0020",
+        "chunk0029"
       ],
       "frequency": 58,
       "gender": "unknown",
@@ -509,7 +523,9 @@
       "evidence_refs": [
         "chunk0012",
         "chunk0018",
-        "chunk0022"
+        "chunk0022",
+        "chunk0028",
+        "chunk0034"
       ],
       "frequency": 19,
       "gender": "unknown",
@@ -523,11 +539,11 @@
       "category": "org",
       "confidence": "high",
       "evidence_refs": [
-        "chunk0016",
-        "chunk0017",
         "chunk0019",
         "chunk0021",
-        "chunk0018"
+        "chunk0018",
+        "chunk0024",
+        "chunk0034"
       ],
       "frequency": 83,
       "gender": "unknown",
@@ -577,6 +593,104 @@
       "notes": "",
       "source": "UVX",
       "target": "UVX"
+    },
+    {
+      "aliases": [],
+      "category": "pattern",
+      "confidence": "low",
+      "evidence_refs": [
+        "chunk0028"
+      ],
+      "frequency": 0,
+      "gender": "unknown",
+      "id": "Goal Setting and Monitoring",
+      "notes": "",
+      "source": "Goal Setting and Monitoring",
+      "target": "目标设定与监控"
+    },
+    {
+      "aliases": [],
+      "category": "library",
+      "confidence": "low",
+      "evidence_refs": [
+        "chunk0028"
+      ],
+      "frequency": 0,
+      "gender": "unknown",
+      "id": "langchain_openai",
+      "notes": "",
+      "source": "langchain_openai",
+      "target": "langchain_openai"
+    },
+    {
+      "aliases": [],
+      "category": "class",
+      "confidence": "low",
+      "evidence_refs": [
+        "chunk0028"
+      ],
+      "frequency": 0,
+      "gender": "unknown",
+      "id": "ChatOpenAI",
+      "notes": "",
+      "source": "ChatOpenAI",
+      "target": "ChatOpenAI"
+    },
+    {
+      "aliases": [],
+      "category": "model",
+      "confidence": "low",
+      "evidence_refs": [
+        "chunk0028"
+      ],
+      "frequency": 0,
+      "gender": "unknown",
+      "id": "gpt-4o",
+      "notes": "",
+      "source": "gpt-4o",
+      "target": "gpt-4o"
+    },
+    {
+      "aliases": [],
+      "category": "technique",
+      "confidence": "low",
+      "evidence_refs": [
+        "chunk0034"
+      ],
+      "frequency": 0,
+      "gender": "unknown",
+      "id": "GraphRAG",
+      "notes": "",
+      "source": "GraphRAG",
+      "target": "GraphRAG（基于图的检索增强生成）"
+    },
+    {
+      "aliases": [],
+      "category": "person",
+      "confidence": "low",
+      "evidence_refs": [
+        "chunk0034"
+      ],
+      "frequency": 0,
+      "gender": "unknown",
+      "id": "Leonie Monigatti",
+      "notes": "",
+      "source": "Leonie Monigatti",
+      "target": "Leonie Monigatti"
+    },
+    {
+      "aliases": [],
+      "category": "api",
+      "confidence": "low",
+      "evidence_refs": [
+        "chunk0034"
+      ],
+      "frequency": 0,
+      "gender": "unknown",
+      "id": "VertexAiRagMemoryService",
+      "notes": "",
+      "source": "VertexAiRagMemoryService",
+      "target": "VertexAiRagMemoryService"
     }
   ],
   "version": 2
