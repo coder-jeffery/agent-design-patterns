@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "new_entities": [
+    {
+      "source": "Chain of Debates (CoD)",
+      "target_proposal": "辩论链（CoD）",
+      "category": "technique",
+      "evidence": "Collaborative frameworks like Chain of Debates (CoD) signal the shift from solitary agents to multi-agent systems"
+    },
+    {
+      "source": "Gemma",
+      "target_proposal": "Gemma",
+      "category": "model",
+      "evidence": "can be integrated with local LLLMs such as Gemma. It utilizes Docker and modular project scaffolding"
+    }
+  ],
+  "alias_hypotheses": [
+    {
+      "variant": "Tree-of-Thought",
+      "may_be_alias_of_source": "Tree of Thoughts",
+      "evidence": "Tree-of-Thought and Self-Correction give agents the crucial ability to deliberate"
+    },
+    {
+      "variant": "DeepSearch",
+      "may_be_alias_of_source": "Deep Research",
+      "evidence": "Fig.4: Example of DeepSearch with LangGraph (code from backend/src/agent/graph.py)"
+    },
+    {
+      "variant": "LLLMs",
+      "may_be_alias_of_source": "LLM",
+      "evidence": "can be integrated with local LLLMs such as Gemma"
+    }
+  ],
+  "attribute_hypotheses": [],
+  "used_term_sources": [
+    "LLM",
+    "LLMs",
+    "agent",
+    "agents",
+    "Agent",
+    "agentic",
+    "multi-agent",
+    "multi-agent systems",
+    "Tree of Thoughts",
+    "Tree-of-Thought",
+    "Deep Research",
+    "Google",
+    "Planning",
+    "Reflection",
+    "MASS"
+  ],
+  "conflicts": []
+}

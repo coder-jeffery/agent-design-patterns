@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "new_entities": [
+    {
+      "source": "A2A Client (Client Agent)",
+      "target_proposal": "A2A 客户端（客户端智能体）",
+      "category": "role",
+      "evidence": "A2A Client (Client Agent): An application or AI agent that acts on the user's behalf"
+    },
+    {
+      "source": "A2A Server (Remote Agent)",
+      "target_proposal": "A2A 服务器（远程智能体）",
+      "category": "role",
+      "evidence": "A2A Server (Remote Agent): An AI agent or system that provides an HTTP endpoint"
+    },
+    {
+      "source": "Curated Registries",
+      "target_proposal": "策展注册表",
+      "category": "concept",
+      "evidence": "Curated Registries: These provide a centralized catalog where Agent Cards are published"
+    },
+    {
+      "source": "CalendarToolset",
+      "target_proposal": "CalendarToolset",
+      "category": "api",
+      "evidence": "toolset = CalendarToolset(client_id=client_id, client_secret=client_secret)"
+    },
+    {
+      "source": "sendTaskSubscribe",
+      "target_proposal": "sendTaskSubscribe",
+      "category": "api",
+      "evidence": "the streaming request uses the sendTaskSubscribe method to establish a persistent connection"
+    }
+  ],
+  "alias_hypotheses": [],
+  "attribute_hypotheses": [],
+  "used_term_sources": [
+    "Inter-Agent Communication",
+    "A2A",
+    "agent",
+    "agents",
+    "AI agents",
+    "Agent",
+    "Google",
+    "Google ADK",
+    "ADK",
+    "Agent Card",
+    "multi-agent",
+    "multi-agent systems",
+    "Model Context Protocol",
+    "MCP",
+    "LLM"
+  ],
+  "conflicts": []
+}

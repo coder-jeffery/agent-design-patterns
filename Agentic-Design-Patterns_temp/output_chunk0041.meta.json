@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "new_entities": [
+    {
+      "source": "Reinforcement Learning with Verifiable Rewards (RLVR)",
+      "target_proposal": "可验证奖励强化学习（RLVR）",
+      "category": "technique",
+      "evidence": "Reinforcement Learning with Verifiable Rewards (RLVR): While effective, the standard Chain-of-Thought (CoT) prompting"
+    },
+    {
+      "source": "GoD (Graph of Debates)",
+      "target_proposal": "GoD（辩论图，Graph of Debates）",
+      "category": "framework",
+      "evidence": "GoD (Graph of Debates) is an advanced Agentic framework that reimagines discussion as a dynamic, non-linear network"
+    },
+    {
+      "source": "MASS",
+      "target_proposal": "MASS",
+      "category": "system",
+      "evidence": "Following local optimization, MASS optimizes the workflow topology by selecting and arranging different agent interactions"
+    }
+  ],
+  "alias_hypotheses": [
+    {
+      "variant": "DeepSearch",
+      "may_be_alias_of_source": "Deep Research",
+      "evidence": "The DeepSearch code, open-sourced by Google, is available through the gemini-fullstack-langgraph-quickstart repository"
+    }
+  ],
+  "attribute_hypotheses": [],
+  "used_term_sources": [
+    "Chain of Thought",
+    "CoT",
+    "LLM",
+    "LLMs",
+    "agent",
+    "Agent",
+    "Agents",
+    "agentic",
+    "Agentic",
+    "multi-agent",
+    "Deep Research",
+    "Google",
+    "OpenAI",
+    "Reflection",
+    "Tool Use",
+    "tool use"
+  ],
+  "conflicts": []
+}

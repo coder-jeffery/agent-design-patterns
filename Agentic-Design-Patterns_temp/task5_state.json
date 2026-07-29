@@ -41,7 +41,7 @@
         "chunk0033",
         "chunk0034"
       ],
-      "status": "done",
+      "status": "done_via_2.1",
       "note": "rerun after stuck; chunk0024 retry attempt 3",
       "agents": {
         "chunk0024": "fe18537e-0515-464e-b60a-16442462b596",
@@ -76,7 +76,13 @@
         "chunk0034"
       ],
       "status": "done",
-      "note": "retry empty-transcript agents"
+      "note": "retry empty-transcript agents",
+      "completed": [
+        "chunk0024",
+        "chunk0032",
+        "chunk0033",
+        "chunk0034"
+      ]
     },
     {
       "n": 3,
@@ -90,7 +96,33 @@
         "chunk0041",
         "chunk0042"
       ],
-      "status": "launching"
+      "status": "launching",
+      "agents": {
+        "chunk0035": "64b7377d-1a6d-4b7c-9b73-91caa5abafc6",
+        "chunk0036": "73803510-7779-48db-a9af-212838dea621",
+        "chunk0037": "07d4f8ec-5863-49ee-82fa-fa3b788d7a6e",
+        "chunk0038": "d65160cd-70fc-4a86-bc11-9dfdb54b57ef",
+        "chunk0039": "caeca96a-9423-4290-836e-0765d0c2213d",
+        "chunk0040": "c755924a-4e98-403e-bfae-16ca4dcd7d7f",
+        "chunk0041": "c10a5fb8-cb04-4695-a134-87f125a3ef22",
+        "chunk0042": "e34d29bd-709d-4baf-969f-87dabf5ec3ae"
+      }
+    },
+    {
+      "n": 3,
+      "chunks": [
+        "chunk0035",
+        "chunk0036",
+        "chunk0037",
+        "chunk0038",
+        "chunk0039",
+        "chunk0040",
+        "chunk0041",
+        "chunk0042"
+      ],
+      "status": "running",
+      "started_at": "2026-07-29T17:04+08:00",
+      "note": "continue Task5 missing chunks"
     }
   ],
   "remaining_after_batch1": [
@@ -149,5 +181,5 @@
     "translated_approx": 34,
     "missing_approx": 38
   },
-  "session": "6c10160f-6d2c-42c9-92c4-fa128cd33487"
+  "session": "413948bb-current-or-this"
 }

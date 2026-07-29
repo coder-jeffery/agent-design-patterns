@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "new_entities": [
+    {
+      "source": "Trickle AI",
+      "target_proposal": "Trickle AI",
+      "category": "tool",
+      "evidence": "Tools such as Trickle AI aid in visualizing and tracking A2A communications"
+    },
+    {
+      "source": "LangGraph",
+      "target_proposal": "LangGraph",
+      "category": "framework",
+      "evidence": "Communication between different AI frameworks such as LangGraph, CrewAI, and Google ADK"
+    },
+    {
+      "source": "CrewAI",
+      "target_proposal": "CrewAI",
+      "category": "framework",
+      "evidence": "Communication between different AI frameworks such as LangGraph, CrewAI, and Google ADK"
+    },
+    {
+      "source": "Google AgentDiscovery",
+      "target_proposal": "Google AgentDiscovery",
+      "category": "product",
+      "evidence": "5. Google AgentDiscovery - https://a2a-protocol.org/latest/"
+    }
+  ],
+  "alias_hypotheses": [
+    {
+      "variant": "Agent-to-Agent",
+      "may_be_alias_of_source": "Inter-Agent Communication",
+      "evidence": "Getting Started with Agent-to-Agent (A2A) Protocol"
+    }
+  ],
+  "attribute_hypotheses": [],
+  "used_term_sources": [
+    "agent",
+    "agents",
+    "AI agents",
+    "A2A",
+    "Inter-Agent Communication",
+    "multi-agent",
+    "Model Context Protocol",
+    "MCP",
+    "LLMs",
+    "Google",
+    "Google ADK",
+    "ADK",
+    "Agent Development Kit"
+  ],
+  "conflicts": []
+}

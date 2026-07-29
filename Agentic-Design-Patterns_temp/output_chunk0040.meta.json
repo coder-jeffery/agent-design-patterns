@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "new_entities": [
+    {
+      "source": "Program-Aided Language Models (PALMs)",
+      "target_proposal": "程序辅助语言模型（PALMs）",
+      "category": "technique",
+      "evidence": "Program-Aided Language Models (PALMs) integrate LLMs with symbolic reasoning capabilities."
+    },
+    {
+      "source": "ReAct",
+      "target_proposal": "ReAct",
+      "category": "technique",
+      "evidence": "(ReAct). Increased inference time allows for a more comprehensive differential diagnosis."
+    },
+    {
+      "source": "Self-Correction Agent",
+      "target_proposal": "自我纠正智能体",
+      "category": "pattern",
+      "evidence": "You are a highly critical and detail-oriented Self-Correction Agent."
+    },
+    {
+      "source": "BuiltInCodeExecutor",
+      "target_proposal": "BuiltInCodeExecutor",
+      "category": "api",
+      "evidence": "code_executor=[BuiltInCodeExecutor],"
+    }
+  ],
+  "alias_hypotheses": [],
+  "attribute_hypotheses": [],
+  "used_term_sources": [
+    "agent",
+    "Agent",
+    "agents",
+    "LLM",
+    "LLMs",
+    "Chain-of-Thought",
+    "CoT",
+    "Planning",
+    "planning"
+  ],
+  "conflicts": []
+}
