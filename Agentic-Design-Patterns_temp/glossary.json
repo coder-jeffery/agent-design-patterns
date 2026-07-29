@@ -19,7 +19,10 @@
     "chunk0019": "52f27e3ca03b4aaea5e2db4266bbb0aee5ba511da20f376c16d3e740b4d2d140",
     "chunk0020": "b953d70bb22ef4ddbd55445cec2973600dbc28c098007a51c11fda752321ca25",
     "chunk0021": "711ed2444d10a5c680d61deac709aac6a490565564f8afb01cc04712a050e5a7",
+    "chunk0022": "afb6cfd4d8928be98898bc1d29ac74b1be96fca3d6c85d1f5d3dd34cf4bb00f5",
+    "chunk0023": "d6ace5cd6f1e3dbe3868ae9195a2c3ded820453a41567514eded77ea81789193",
     "chunk0025": "bfc04329980371bd7184fb56096c604c393e0b1281ae897ef37a91310a700511",
+    "chunk0026": "693389fb02c03f46fb63b72f7c7c690e7d2378174fa71a0e44e69b2463abb61f",
     "chunk0027": "1e66a7e7fff3b87606e438642d5128b82cc0274f3a2989ccf88e6cb4a96c1ea4"
   },
   "high_frequency_top_n": 20,
@@ -64,11 +67,11 @@
       "category": "tech",
       "confidence": "high",
       "evidence_refs": [
-        "chunk0021",
-        "chunk0018",
-        "chunk0020",
         "chunk0025",
-        "chunk0027"
+        "chunk0027",
+        "chunk0022",
+        "chunk0023",
+        "chunk0026"
       ],
       "frequency": 884,
       "gender": "unknown",
@@ -84,11 +87,11 @@
       "category": "tech",
       "confidence": "high",
       "evidence_refs": [
-        "chunk0011",
-        "chunk0012",
         "chunk0013",
         "chunk0018",
-        "chunk0020"
+        "chunk0020",
+        "chunk0023",
+        "chunk0026"
       ],
       "frequency": 73,
       "gender": "unknown",
@@ -159,11 +162,11 @@
       "category": "pattern",
       "confidence": "high",
       "evidence_refs": [
-        "chunk0001",
         "chunk0003",
         "chunk0012",
         "chunk0013",
-        "chunk0018"
+        "chunk0018",
+        "chunk0022"
       ],
       "frequency": 45,
       "gender": "unknown",
@@ -184,7 +187,8 @@
         "chunk0001",
         "chunk0002",
         "chunk0004",
-        "chunk0016"
+        "chunk0016",
+        "chunk0026"
       ],
       "frequency": 43,
       "gender": "unknown",
@@ -221,7 +225,8 @@
       "confidence": "high",
       "evidence_refs": [
         "chunk0018",
-        "chunk0027"
+        "chunk0027",
+        "chunk0026"
       ],
       "frequency": 52,
       "gender": "unknown",
@@ -266,11 +271,11 @@
       "category": "tech",
       "confidence": "high",
       "evidence_refs": [
-        "chunk0016",
-        "chunk0019",
         "chunk0021",
         "chunk0020",
-        "chunk0027"
+        "chunk0027",
+        "chunk0022",
+        "chunk0023"
       ],
       "frequency": 80,
       "gender": "unknown",
@@ -348,11 +353,11 @@
       "category": "tech",
       "confidence": "high",
       "evidence_refs": [
-        "chunk0017",
-        "chunk0019",
         "chunk0018",
         "chunk0020",
-        "chunk0027"
+        "chunk0027",
+        "chunk0022",
+        "chunk0026"
       ],
       "frequency": 141,
       "gender": "unknown",
@@ -370,7 +375,8 @@
       "confidence": "high",
       "evidence_refs": [
         "chunk0012",
-        "chunk0018"
+        "chunk0018",
+        "chunk0022"
       ],
       "frequency": 5,
       "gender": "unknown",
@@ -422,7 +428,8 @@
       "confidence": "high",
       "evidence_refs": [
         "chunk0003",
-        "chunk0007"
+        "chunk0007",
+        "chunk0022"
       ],
       "frequency": 67,
       "gender": "unknown",
@@ -501,7 +508,8 @@
       "confidence": "high",
       "evidence_refs": [
         "chunk0012",
-        "chunk0018"
+        "chunk0018",
+        "chunk0022"
       ],
       "frequency": 19,
       "gender": "unknown",

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "new_entities": [],
+  "alias_hypotheses": [],
+  "attribute_hypotheses": [],
+  "used_term_sources": [
+    "Human-in-the-Loop",
+    "HITL",
+    "agent",
+    "Agents",
+    "Agent",
+    "AI agent",
+    "LLM",
+    "ADK"
+  ],
+  "conflicts": []
+}

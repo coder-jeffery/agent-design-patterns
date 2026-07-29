@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "new_entities": [
+    {
+      "source": "Goal Setting and Monitoring",
+      "target_proposal": "目标设定与监控",
+      "category": "pattern",
+      "evidence": "This is where the Goal Setting and Monitoring pattern comes into play."
+    },
+    {
+      "source": "langchain_openai",
+      "target_proposal": "langchain_openai",
+      "category": "library",
+      "evidence": "pip install langchain_openai openai python-dotenv"
+    },
+    {
+      "source": "ChatOpenAI",
+      "target_proposal": "ChatOpenAI",
+      "category": "class",
+      "evidence": "llm = ChatOpenAI("
+    },
+    {
+      "source": "gpt-4o",
+      "target_proposal": "gpt-4o",
+      "category": "model",
+      "evidence": "Initializing OpenAI LLM (gpt-4o)"
+    }
+  ],
+  "alias_hypotheses": [],
+  "attribute_hypotheses": [],
+  "used_term_sources": [
+    "agent",
+    "agents",
+    "LLM",
+    "LLMs",
+    "OpenAI",
+    "planning"
+  ],
+  "conflicts": []
+}

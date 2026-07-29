@@ -17,7 +17,7 @@
         "chunk0026",
         "chunk0027"
       ],
-      "status": "running",
+      "status": "done_7_of_8",
       "agents": {
         "chunk0018": "b96bf2fd-eb58-4b7a-ab3c-56988982b065",
         "chunk0020": "c9b0566e-d6e0-41c7-beed-3f5c10105993",
@@ -28,6 +28,55 @@
         "chunk0026": "7f629359-95cd-4793-b377-ab72d21eb269",
         "chunk0027": "db98a7e8-edaf-48ed-87e7-13319aafaa08"
       }
+    },
+    {
+      "n": 2,
+      "chunks": [
+        "chunk0024",
+        "chunk0028",
+        "chunk0029",
+        "chunk0030",
+        "chunk0031",
+        "chunk0032",
+        "chunk0033",
+        "chunk0034"
+      ],
+      "status": "partial_4_of_8",
+      "note": "rerun after stuck; chunk0024 retry attempt 3",
+      "agents": {
+        "chunk0024": "fe18537e-0515-464e-b60a-16442462b596",
+        "chunk0028": "51c2168e-2069-47e7-b266-a6b474b081f7",
+        "chunk0029": "05d9f4c5-534a-4ea3-9a38-be4afda9e4e0",
+        "chunk0030": "ca17c46b-00d4-4078-b658-fb2d1a1075f1",
+        "chunk0031": "53df1283-78ad-41ae-bda4-e230dd95b5eb",
+        "chunk0032": "57cf5890-afc7-464b-b1a6-ddd44d66bc32",
+        "chunk0033": "d4c90408-27bf-4ea3-9481-4ab1c6492512",
+        "chunk0034": "c9a54a3d-2cea-49f1-8c53-f6d6c27663c7"
+      },
+      "started_at": "2026-07-29T16:41+08:00",
+      "completed": [
+        "chunk0028",
+        "chunk0029",
+        "chunk0030",
+        "chunk0031"
+      ],
+      "failed_empty_agents": [
+        "chunk0024",
+        "chunk0032",
+        "chunk0033",
+        "chunk0034"
+      ]
+    },
+    {
+      "n": 2.1,
+      "chunks": [
+        "chunk0024",
+        "chunk0032",
+        "chunk0033",
+        "chunk0034"
+      ],
+      "status": "running_retry",
+      "note": "retry empty-transcript agents"
     }
   ],
   "remaining_after_batch1": [
@@ -81,5 +130,10 @@
     "chunk0014",
     "chunk0015"
   ],
-  "note": "Task5 verify+retry only; do not start Task6/7 until complete"
+  "note": "Task5 verify+retry only; do not start Task6/7 until complete",
+  "progress": {
+    "translated_approx": 30,
+    "missing_approx": 42
+  },
+  "session": "6c10160f-6d2c-42c9-92c4-fa128cd33487"
 }

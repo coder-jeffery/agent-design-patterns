@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "new_entities": [],
+  "alias_hypotheses": [],
+  "attribute_hypotheses": [],
+  "used_term_sources": [
+    "agent",
+    "agents",
+    "LLM",
+    "LLMs",
+    "Large Language Models",
+    "RAG",
+    "Retrieval-Augmented Generation",
+    "agentic",
+    "Google",
+    "ADK",
+    "OpenAI"
+  ],
+  "conflicts": []
+}

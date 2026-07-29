@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "new_entities": [],
+  "alias_hypotheses": [],
+  "attribute_hypotheses": [],
+  "used_term_sources": [
+    "agent",
+    "agents",
+    "AI agent",
+    "AI agents",
+    "LLM",
+    "LLMs",
+    "Google",
+    "agentic",
+    "RAG",
+    "Retrieval Augmented Generation",
+    "tool use",
+    "prompt engineering"
+  ],
+  "conflicts": []
+}

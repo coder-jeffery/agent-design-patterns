@@ -1,0 +1,36 @@
+# 第 5 章：工具使用（Function Calling）
+
+> 原文：Chapter 5: Tool Use (Function Calling)  
+> 所属：第一部分：核心模式  
+> 翻译状态：**已译**  
+> 译文文件：`output_chunk0014.md`, `output_chunk0015.md`, `output_chunk0016.md`
+
+## 本章目录
+
+- 第 5 章：工具使用（Function Calling）
+  - 工具使用模式概览
+  - 动手代码（Google ADK）
+  - 结论
+
+## 本章索引
+
+### 书末术语索引中指向本章的条目
+
+- **Google Agent Development Kit（ADK）**（Google Agent Development Kit (ADK)）（另见：第 2 章：路由；第 3 章：并行化；第 4 章：反思；第 7 章：多智能体协作；第 8 章：记忆管理；第 12 章：异常处理与恢复；第 13 章：人在环路；第 15 章：智能体间通信（A2A）；第 16 章：资源感知优化；第 19 章：评估与监控；附录 C）
+- **LangChain**（LangChain）（另见：第 1 章：提示链；第 2 章：路由；第 3 章：并行化；第 4 章：反思；第 8 章：记忆管理；第 20 章：优先级排序；附录 C）
+- **LangGraph**（LangGraph）（另见：第 1 章：提示链；第 2 章：路由；第 3 章：并行化；第 4 章：反思；第 8 章：记忆管理；附录 C）
+- **工具使用**（Tool Use）（另见：附录 A）
+
+### 本章出现的术语表词条
+
+- **Google**（Google）
+- **Google ADK**（Google ADK）
+- **反思**（Reflection）
+- **大语言模型**（LLM）
+- **工具使用**（Tool Use）
+- **并行化**（Parallelization）
+- **提示链**（Prompt Chaining）
+- **智能体**（agent）
+- **智能体式**（agentic）
+- **路由**（Routing）
+
