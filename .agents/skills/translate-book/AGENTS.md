@@ -64,7 +64,7 @@ Verify: all output_chunk*.md files exist, manifest validation passes, output for
 ### Environment
 
 - Python 3.12+ is pre-installed; no version manager needed.
-- System dependencies (Calibre, Pandoc) and pip packages (pypandoc, beautifulsoup4) are installed by the update script.
+- The Cloud Agent `install` command installs Calibre and Pandoc, then `pypandoc` and `beautifulsoup4`. It must stay noninteractive: `fuse3` stops on `/etc/fuse.conf` unless apt is run with `-o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold"`. `python3 -m pip install --user pypandoc beautifulsoup4` writes the `pypandoc` console script to `~/.local/bin`; the install links that script to `/usr/local/bin`. There is no daemon or dev server to start on boot.
 - Unit tests only依赖 Python stdlib（不需要 pip 包或外部二进制，直接 `python3 -m unittest discover` 即可运行）。
 
 ### Running tests
@@ -87,4 +87,4 @@ python3 ../../scripts/merge_and_build.py --temp-dir standard-alice_temp --title 
 ### Known issues
 
 - Ubuntu's Calibre 7.6.0 package has an EPUB generation bug (bytes/str mismatch in `container.py`). DOCX and PDF generation work fine. This is a distro packaging issue, not a codebase bug.
-- `pypandoc` installs its CLI script to `~/.local/bin` which may not be on PATH, but the Python library import works regardless.
+- `python3 -m pip install --user pypandoc` installs its CLI script to `~/.local/bin`, which a login shell does not put on `PATH`. The Cloud Agent install links it to `/usr/local/bin`. HTML conversion uses the `pandoc` binary and the Python library, so a missing CLI script does not block the pipeline.
